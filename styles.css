@@ -1,0 +1,90 @@
+.nav-bar{
+  background-color: #8A9684;
+  font-family: 'GFS Didot', serif;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-link{
+  display: inline;
+  color: #172F0E;
+  margin-right: 20px;
+}
+.cactus{
+  width: 100%;
+}
+
+.Brittany{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 30pt;
+  transform: translateX(-50%);
+  font-family: 'Libre Baskerville', serif;
+  color: #5C6C55;
+}
+
+.UX{
+  color: #5C6C55;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25pt;
+}
+
+.landingpage{
+  text-align: center;
+  position: relative;
+}
+
+.case-study-left{
+  font-family: 'GFS Didot', serif;
+  font-size: 20px;
+  color: grey;
+  text-align: left;
+}
+
+.case-study-right{
+  align-items: right;
+}
+
+.heading-title{
+  color: grey;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.case-study-title{
+ font-size: 20px;
+ text-align: left;
+ position: relative;
+}
+
+.case-study-subtitle{
+  font-size: 15px;
+}
+
+.footer-left{
+  font-size: 12px;
+  color: #172F0E;
+  left: 50%;
+}
+
+.footer{
+  background-color: #8A9684;
+  font-family: 'GFS Didot', serif;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.case-study-img{
+  margin-right: 20px;
+}
+
+.case-study-content{
+  font-family: 'Nunito Sans', sans-serif;
+}
