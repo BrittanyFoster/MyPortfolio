@@ -1,4 +1,4 @@
-.nav-bar{
+/* .nav-bar{
   background-color: #8A9684;
   font-family: 'GFS Didot', serif;
   text-align: right;
@@ -287,9 +287,7 @@ margin-right: 10px;
   font-size: 18px;
   color: grey;
   margin: 20px auto;
-
 }
-
 
 
 .comp-title{
@@ -334,25 +332,6 @@ vertical-align: top;
   vertical-align: top;
 }
 
-/* .competitive-left{
-  display: inline-block;
-}
-.competitive-left img{
-  height: 100px;
-  margin-right: 100px;
-}
-  .competitive-right{
-    font-size: 18px;
-    color: grey;
-    text-align: left;
-    display: inline-block;
-    width: 60%;
-    height: fit-content;
-    margin-left: 30px;
-    vertical-align: top;
-    position: relative;
-  } */
-
   .biocontent{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
@@ -362,4 +341,4 @@ vertical-align: top;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 27px;
     color: #808D7B;
-  }
+  } */
