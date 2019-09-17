@@ -1,19 +1,22 @@
-/* .nav-bar{
-  background-color: #8A9684;
+.nav-bar{
+  background-color: #808D7B;
   font-family: 'GFS Didot', serif;
   text-align: right;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 .navbar-link{
   display: inline;
   color: #172F0E;
   margin-right: 20px;
   text-decoration: none;
 }
+
 .navbar-link:hover{
   color: white;
 }
+
 .cactus{
   z-index: 0;
   width: 100%;
@@ -21,9 +24,10 @@
 
 .logo{
   position: absolute;
-  top: 12px;
   z-index: 10;
-  left: 10px;
+  top:0;
+  left:0;
+  width: 40px;
 }
 
 .Brittany{
@@ -97,9 +101,9 @@
 }
 
 .case-study-title{
- font-size: 20px;
+ font-size: 22px;
  position: relative;
- color: #3E3E3E;
+ color: #595959;
  font-family: 'GFS Didot', serif;
  text-align: center;
  margin-bottom: 20px;
@@ -146,7 +150,35 @@ margin-right: 10px;
 .section{
   text-align: center;
   margin-bottom: 50px;
-  height: 100vh;
+  margin-top: 50px;
+  /* height: 90vh; */
+  padding-top: 5%;
+}
+
+.dashboard{
+  width: 45%;
+  margin-top: 150px;
+}
+
+.mobile{
+  width: 45%;
+  margin-top: 75px;
+}
+
+.v-center{
+  vertical-align: middle !important;
+}
+
+.centered{
+  text-align: center !important;
+}
+
+.flyt-logo{
+  width: 100%;
+}
+
+.branding{
+  margin-bottom: 100px !important;
 }
 
 .section-title{
@@ -167,6 +199,8 @@ margin-right: 10px;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   color: grey;
+  text-align: left;
+  line-height: 1.5em;
 }
 
 .summary-content{
@@ -175,6 +209,7 @@ margin-right: 10px;
   color: grey;
   width: 60%;
   margin-left: 20%;
+  line-height: 1.5em;
 }
 
 
@@ -186,11 +221,11 @@ margin-right: 10px;
 
 .flyt-left{
   display: inline-block;
+  margin-left: 40px;
 }
 
 .flyt-left img{
   height: 500px;
-  margin-right: 100px;
 }
 
 .flyt-right{
@@ -199,9 +234,9 @@ margin-right: 10px;
   text-align: left;
   display: inline-block;
   width: 60%;
-  margin-left: 30px;
   vertical-align: top;
   position: relative;
+  margin-left: 50px;
 }
 
 .case-study-button{
@@ -222,10 +257,11 @@ margin-right: 10px;
   color: white;
 }
 
-.problem-solution{
-  text-align: center;
-  margin-bottom: 30px;
-}
+/* .problem-solution{
+  margin-bottom: 70px;
+  line-height: 1.5em;
+
+} */
 
 
 .half-page{
@@ -237,7 +273,7 @@ margin-right: 10px;
   vertical-align: top;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .half-cloud{
@@ -249,11 +285,22 @@ margin-right: 10px;
   vertical-align: middle;
 }
 
+.half-cloud img{
+  margin-top: 50px;
+}
+
+.half-cloud .case-study-content{
+  width: 45px;
+  white-space: nowrap;
+  line-height: 2em;
+}
+
 .case-study-content-ol{
   margin-top: 80px;
   margin-bottom: 80px;
   font-size: 18px;
   font-family: 'Nunito Sans', sans-serif;
+  line-height: 1.5em;
 }
 
 .survey{
@@ -270,25 +317,33 @@ margin-right: 10px;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
+
 }
+
+
 .half-comp img{
   width: 100%;
+  padding-top: 40px;
+}
+
+
+.half-comp .case-study-content{
+  line-height: 1.5em;
 }
 
 .half-personas img{
   width: 80%;
   margin-bottom: 50px;
   margin-left: 10%;
-}
-
-.half-personas{
-  text-align: left;
-  width: 75%;
-  font-size: 18px;
-  color: grey;
+  text-align: center;
   margin: 20px auto;
 }
 
+.half-personas .case-study-content{
+  width: 39%;
+  margin: auto;
+  line-height: 1.5em;
+}
 
 .comp-title{
   width: 110px;
@@ -303,7 +358,7 @@ margin-right: 10px;
   text-align: left;
   display: inline-block;
   width: 60%;
-  /* height: fit-content; */
+  height: fit-content;
   margin-left: 30px;
   vertical-align: top;
   position: relative;
@@ -332,13 +387,14 @@ vertical-align: top;
   vertical-align: top;
 }
 
-  .biocontent{
+.biocontent{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     color: #808D7B;
-  }
-  .biocontent-bold{
+}
+
+.biocontent-bold{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 27px;
     color: #808D7B;
-  } */
+}
