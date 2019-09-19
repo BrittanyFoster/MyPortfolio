@@ -225,7 +225,7 @@ margin-right: 10px;
 }
 
 .flyt-left img{
-  height: 500px;
+  width: 200px;
 }
 
 .flyt-right{
@@ -287,11 +287,10 @@ margin-right: 10px;
 
 .half-cloud img{
   margin-top: 50px;
+  width: 100%;
 }
 
 .half-cloud .case-study-content{
-  width: 45px;
-  white-space: nowrap;
   line-height: 2em;
 }
 
@@ -390,11 +389,101 @@ vertical-align: top;
 .biocontent{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
-    color: #808D7B;
+    color: grey;
+    text-align: left;
+    line-height: 1.5em;
 }
 
 .biocontent-bold{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 27px;
-    color: #808D7B;
+    color: grey;
+}
+
+@media only screen and (max-width: 700px) {
+  .Brittany{
+    top: 20%;
+    font-size: 18pt;
+
+  }
+  .UX{
+    top: 30%;
+    font-size: 12pt;
+  }
+  .nav-bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .logo{
+    width: 32px;
+  }
+  .navbar-link{
+    display: inline;
+    color: #172F0E;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  .case-study-left{
+    width: 100%;
+    margin-right: 0;
+    font-size: 14pt;
+  }
+  .case-study-img{
+    display: block;
+    width: 50%;
+    max-width: 300px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .greyline{
+    display: none;
+  }
+  .case-study-subtitle{
+    font-size: 12px;
+  }
+  .flyt-left img{
+    width: 80%;
+  }
+  .flyt-left{
+  margin: 0;
+  }
+  .flyt-right{
+    margin-left: 0;
+    width: 80%;
+  }
+  .summary-content{
+    margin-left: 0;
+    width: 100%;
+    font-size: 14pt;
+  }
+  .case-study-content-ol{
+    font-size: 14p4;
+  }
+
+  .case-study-title{
+    margin-top: 30px;
+  }
+  .section-title{
+    margin-top: 30px;
+  }
+
+  .half-page{
+    width: 90%;
+    margin: auto;
+  }
+  .section{
+    text-align: center;
+  }
+  .half-cloud{
+    width: 90%;
+  }
+  .half-comp{
+    width: 90%;
+  }
+  .case-study-content{
+    font-size: 14pt;
+
 }
