@@ -339,7 +339,6 @@ margin-right: 10px;
 }
 
 .half-personas .case-study-content{
-  width: 39%;
   margin: auto;
   line-height: 1.5em;
 }
@@ -474,6 +473,10 @@ vertical-align: top;
     width: 90%;
     margin: auto;
   }
+  .half-personas{
+    width:90%;
+    margin: auto;
+  }
   .section{
     text-align: center;
   }
@@ -485,5 +488,6 @@ vertical-align: top;
   }
   .case-study-content{
     font-size: 14pt;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
