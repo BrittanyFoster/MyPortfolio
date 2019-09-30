@@ -89,7 +89,8 @@
 }
 
 .greyline{
-  width: 300px;
+  width: 90%;
+  margin: auto;
   border-top: 1px solid;
   margin-top: 50px;
   color: #BAB8B8;
@@ -140,6 +141,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  text-align: left;
 }
 
 .footer{
@@ -159,10 +161,13 @@ margin-right: 10px;
 
 .section{
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 60px;
   /* height: 90vh; */
-  padding-top: 5%;
+  /* padding-top: 5%; */
+  max-width: 1500px;
+
 }
 
 .dashboard{
@@ -264,6 +269,11 @@ margin-right: 10px;
   font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;
 }
+
+a{
+  text-decoration: none;
+}
+
 .case-study-button:hover{
   background-color: orange;
   color: white;
@@ -286,7 +296,7 @@ margin-right: 10px;
   vertical-align: top;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
   padding-left: 25px;
 }
 
@@ -310,8 +320,8 @@ margin-right: 10px;
 
 
 .case-study-content-ol{
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /* margin-top: 42px; */
+  /* margin-bottom: 42px; */
   font-size: 18px;
   font-family: 'Nunito Sans', sans-serif;
   line-height: 1.5em;
@@ -356,7 +366,8 @@ margin-right: 10px;
 }
 
 .half-personas .case-study-content{
-  /* margin: auto; */
+  margin: auto;
+  width: 70%;
   line-height: 1.5em;
   /* margin-left: 150px;
   margin-right: 150px; */
@@ -411,7 +422,8 @@ vertical-align: top;
     text-align: left;
     line-height: 1.5em;
     margin: auto;
-    width: 50%;
+    width: 60%;
+    max-width: 1000px;
 }
 
 .half-page.font{
@@ -461,8 +473,23 @@ img.third-page{
   vertical-align: top;
 }
 
+@media only screen and (max-width: 1100px) {
+  .biocontent .half-page.font{
+    width: 100%;
+    margin: auto;
+  }
 
-@media only screen and (max-width: 700px) {
+
+.biocontent .half-page{
+  margin: auto;
+  display: block;
+}
+.biocontent{
+  width: 80%;
+}
+}
+
+@media only screen and (max-width: 800px) {
   .Brittany{
     top: 20%;
     font-size: 18pt;
@@ -502,14 +529,14 @@ img.third-page{
   margin: 0;
   }
   .flyt-right{
-    margin-left: 0;
-    width: 80%;
+    margin: auto;
+    width: 90%;
+    display: block;
   }
   .summary-content{
-    margin-left: 7%;
     width: 100%;
     font-size: 14pt;
-    width: 85%;
+    margin-left: 0;
   }
   .case-study-content-ol{
     font-size: 14pt;
@@ -533,6 +560,7 @@ img.third-page{
   }
   .section{
     text-align: center;
+
   }
   .half-cloud{
     width: 90%;
@@ -551,6 +579,11 @@ img.third-page{
 
   }
 
-  .bio-content-bold{
-
+  .biocontent{
+    width: 80%;
+    font-size: 14pt;
+  }
+  .biocontent-bold{
+    width: 70%;
+    font-size: 16pt;
   }
