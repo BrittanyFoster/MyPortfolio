@@ -29,11 +29,12 @@
   top:0;
   left:0;
   width: 40px;
+  margin-left: 8px;
 }
 
 .Brittany{
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   font-size: 30pt;
   transform: translateX(-50%);
@@ -45,7 +46,7 @@
 .UX{
   color: #5C6C55;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Libre Baskerville', serif;
@@ -118,6 +119,7 @@
  font-family: 'GFS Didot', serif;
  text-align: center;
  margin-bottom: 20px;
+ font-weight: bolder;
 }
 
 .case-study-subtitle{
@@ -172,7 +174,6 @@ margin-right: 10px;
 
 .dashboard{
   width: 45%;
-  margin-top: 150px;
 }
 
 .dashboard-1{
@@ -183,11 +184,7 @@ margin-right: 10px;
 
 .mobile{
   width: 45%;
-  margin-top: 75px;
-}
 
-.v-center{
-  vertical-align: middle !important;
 }
 
 .centered{
@@ -252,7 +249,7 @@ margin-right: 10px;
   width: 60%;
   vertical-align: top;
   position: relative;
-  margin-left: 50px;
+  margin-left: 12px;
 }
 
 .case-study-button{
@@ -299,24 +296,6 @@ a{
   margin-bottom: 100px;
   padding-left: 25px;
 }
-
-/* .half-cloud{
-  display: inline-block;
-  text-align: left;
-  width: 35%;
-  font-size: 18px;
-  color: grey;
-  vertical-align: middle;
-} */
-
-/* .half-cloud img{
-  margin-top: 50px;
-  width: 100%;
-}
-
-.half-cloud .case-study-content{
-  line-height: 2em;
-} */
 
 
 .case-study-content-ol{
@@ -367,7 +346,7 @@ a{
 
 .half-personas .case-study-content{
   margin: auto;
-  width: 70%;
+  width: 50%;
   line-height: 1.5em;
   /* margin-left: 150px;
   margin-right: 150px; */
@@ -507,7 +486,6 @@ img.third-page{
   }
   .navbar-link{
     display: inline;
-    color: #172F0E;
     margin-right: 20px;
     text-decoration: none;
     font-size: 10pt;
@@ -554,8 +532,8 @@ img.third-page{
     width: 90%;
     margin: auto;
   }
-  .half-personas{
-    width:90%;
+  .half-personas .case-study-content{
+    width:85%;
     margin: auto;
   }
   .section{
@@ -586,4 +564,7 @@ img.third-page{
   .biocontent-bold{
     width: 70%;
     font-size: 16pt;
+  }
+  .dashboard{
+    width: 80%;
   }
