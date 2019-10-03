@@ -470,11 +470,11 @@ img.third-page{
 
 @media only screen and (max-width: 800px) {
   .Brittany{
-    top: 20%;
+    top: 10%;
     font-size: 18pt;
   }
   .UX{
-    top: 30%;
+    top: 25%;
     font-size: 12pt;
   }
   .nav-bar{
@@ -512,9 +512,9 @@ img.third-page{
     display: block;
   }
   .summary-content{
-    width: 100%;
+    width: 90%;
     font-size: 14pt;
-    margin-left: 0;
+    margin-left: 20px;
   }
   .case-study-content-ol{
     font-size: 14pt;
@@ -532,6 +532,11 @@ img.third-page{
     width: 90%;
     margin: auto;
   }
+
+  .half-page img{
+    width: 50px;
+  }
+
   .half-personas .case-study-content{
     width:85%;
     margin: auto;
